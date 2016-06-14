@@ -685,6 +685,35 @@ a {
     margin-right: 10px;
     margin-top: 3px;
 }
+#sending {
+    border: 0;
+    background: transparent url("images/icons/subscribe.png") 0 0 no-repeat;
+    background-size: 100px 35px;
+    width: 102px;
+    height: 40px;
+    outline: 0;
+    margin-left: -60px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+#sending:hover {
+    -webkit-transform: scale(1.05,1.05);
+         -moz-transform: scale(1.05,1.05);
+         -o-transform: scale(1.05,1.05);
+         -ms-transform: scale(1.05,1.05);
+
+    -webkit-transition: all 0.4s ease-in-out;
+          -moz-transition: all 0.4s ease-in-out;
+          -o-transition: all 0.4s ease-in-out;
+           -ms-transition: all 0.4s ease-in-out;
+
+    -webkit-transition: all 0.4s ease-out-in;
+          -moz-transition: all 0.4s ease-out-in;
+          -o-transition: all 0.4s ease-out-in;
+          -ms-transition: all 0.4s ease-out-in;
+
+
+}
 
 #send:hover {
     -webkit-transform: scale(1.05,1.05);
@@ -1397,7 +1426,7 @@ a {
         }
 
         #sendContainer {
-            margin-right: 42px;
+            /*margin-right: 42px;*/
             margin-top: -5px;
         }
 
@@ -1634,27 +1663,39 @@ a {
 
     #subscribe form input {
             height: 38px;
+            width: 110px;
+            left:20%;
         }
 
-    #send {
-            background-size: 80px 30px;
-            width: 85px;
-            height: 30px;
-            margin-right: 10px;
-            margin-top: 5px;
-        }
+    #sending {
+    border: 0;
+    background: transparent url("images/icons/subscribe.png") 0 0 no-repeat;
+    background-size: 100px 35px;
+    width: 102px;
+    height: 40px;
+    outline: 0;
+    margin-left: -60px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+#sending:hover {
+    -webkit-transform: scale(1.05,1.05);
+         -moz-transform: scale(1.05,1.05);
+         -o-transform: scale(1.05,1.05);
+         -ms-transform: scale(1.05,1.05);
 
-     #send:hover {
-            -webkit-transform: scale(1.05,1.05);
-                   -moz-transform: scale(1.05,1.05);
-                   -o-transform: scale(1.05,1.05);
-                   -ms-transform: scale(1.05,1.05);
+    -webkit-transition: all 0.4s ease-in-out;
+          -moz-transition: all 0.4s ease-in-out;
+          -o-transition: all 0.4s ease-in-out;
+           -ms-transition: all 0.4s ease-in-out;
 
-            -webkit-transition: all 0.4s ease-in-out;
-                   -moz-transition: all 0.4s ease-in-out;
-                   -o-transition: all 0.4s ease-in-out;
-                   -ms-transition: all 0.4s ease-in-out;
-     }
+    -webkit-transition: all 0.4s ease-out-in;
+          -moz-transition: all 0.4s ease-out-in;
+          -o-transition: all 0.4s ease-out-in;
+          -ms-transition: all 0.4s ease-out-in;
+
+
+}
 
      .error {
          margin-top: -22px;
@@ -1718,7 +1759,7 @@ a {
         top: 0;
         height: 100%;
         width: 100%;
-        left: 12%;
+        /*left: 12%;*/
     }
 
     #wrapper {
