@@ -229,7 +229,7 @@ input, textarea, button {
 #logoContainer {
     display: table;
     width: 100%;
-    height: 110%;
+    height: 100%;
     text-align: center;
     margin: 0 auto;
 }
@@ -1168,7 +1168,7 @@ a {
 
     #logoContainer {
         width: 300px;
-        margin-top: 35px;
+        /*margin-top: 35px;*/
     }
 
     #headerText {
@@ -1349,7 +1349,7 @@ a {
 
         #logoContainer {
             width: 300px;
-            margin-top: 40px;
+            /*margin-top: 40px;*/
         }
 
         #headerText {
